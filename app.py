@@ -138,7 +138,12 @@ def get_all_tickers():
     # =========================
     DAX40 = [
         "ADS.DE","AIR.DE","ALV.DE","BAS.DE","BAYN.DE","BMW.DE","CON.DE","DTE.DE","DBK.DE",
-        "SAP.DE","SIE.DE","VOW3.DE","IFX.DE","RWE.DE"
+    "SAP.DE","SIE.DE","VOW3.DE","IFX.DE","RWE.DE",
+    "HEN3.DE","HEI.DE","MRK.DE","FRE.DE","PUM.DE","SY1.DE","VNA.DE","BEI.DE",
+    "1COV.DE","EOAN.DE","MTX.DE","CBK.DE","ZAL.DE","PAH3.DE","BNR.DE""AIXA.DE","AOX.DE","ARL.DE","BOSS.DE","COK.DE","DHL.DE","EVT.DE","FIE.DE",
+    "G1A.DE","HAG.DE","HLE.DE","HOT.DE","KRN.DE","LEG.DE","LXS.DE","MTX.DE",
+    "NDA.DE","PNE3.DE","RHK.DE","RRTL.DE","SDF.DE","SHA.DE","SGL.DE","SIX2.DE",
+    "SZU.DE","TEG.DE","TKA.DE","UTDI.DE","WCH.DE","WUW.DE"
     ]
 
     all_tickers = list(set(SP500 + NASDAQ100 + RUSSELL + DAX40))
